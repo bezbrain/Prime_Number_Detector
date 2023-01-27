@@ -29,6 +29,7 @@ h1 {
 .calculation {
   margin-top: 30px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 label {
