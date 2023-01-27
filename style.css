@@ -9,7 +9,6 @@ body {
 hr {
   width: 80%;
   height: 5px;
-  /* background-color: #808080; */
 }
 
 main {
@@ -59,4 +58,22 @@ input::-webkit-inner-spin-button {
 .check-btn:hover {
   color: #dcdcdc;
   background-color: black;
+}
+
+.result-value {
+  color: #566d7e;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    max-width: 75%;
+  }
+
+  input {
+    width: 50px;
+  }
+
+  .result-value {
+    font-size: 18px;
+  }
 }
