@@ -63,6 +63,8 @@ input::-webkit-inner-spin-button {
 
 .result-value {
   color: #566d7e;
+  margin-top: -18px;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 600px) {
